@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>Disk Usage Information</title>
+</head>
+<body>
+
+<p><font size=2 face=arial color=#000077>
+There are <b><font color=#3399FF>
+<!--#include virtual="E-Size.pl?file"-->
+</font></b> files, using up <b><font color=#3399FF>
+<!--#include virtual="E-Size.pl?sizemb"-->
+</font></b> Megabytes of space in your web-space.<br>
+
+</body>
+</html>
